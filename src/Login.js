@@ -8,6 +8,7 @@ export default class Login extends Component {
     return (
       <View style = {styles.View_background}>
         <Image style={styles.centerImage} source={require('../img/iconUser/iconUser.png')} />
+        
       </View>
     );
   }
@@ -21,6 +22,6 @@ const styles = StyleSheet.create({
   },
   centerImage :{
     alignSelf: 'center',
-    marginTop: "10%",
+    marginTop: "15%",
   }
 })
